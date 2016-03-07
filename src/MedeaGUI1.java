@@ -1,9 +1,13 @@
 import java.awt.BorderLayout;
+import java.awt.Color;
+import java.awt.Dimension;
 import java.awt.EventQueue;
+import java.awt.Toolkit;
 
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.border.EmptyBorder;
+import javax.swing.border.LineBorder;
 
 public class MedeaGUI1 extends JFrame {
 
@@ -30,11 +34,21 @@ public class MedeaGUI1 extends JFrame {
 	 */
 	public MedeaGUI1() {
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		setBounds(100, 100, 450, 300);
+		Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize();
+		double width = screenSize.getWidth();
+		double height = screenSize.getHeight();
+		System.out.println("JFrame Width: " + width + " Height: " + height);
+		setBounds(0, 0, (int) width, (int) height);
+		setUndecorated(true);
 		contentPane = new JPanel();
-		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
-		contentPane.setLayout(new BorderLayout(0, 0));
-		setContentPane(contentPane);
+		contentPane.setBackground(Color.DARK_GRAY);
+		contentPane.setBorder(new LineBorder(new Color(0, 0, 0)));
+		contentPane.setLayout(null);
+		
+		JPanel panel_1 = new JPanel();
+		 panel_1.setBackground(Color.WHITE);
+		 panel_1.setBounds(194, 127, 50, 50);
+		 contentPane.add(panel_1);
 	}
 
 }
