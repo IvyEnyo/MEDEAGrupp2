@@ -8,6 +8,8 @@ import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.border.EmptyBorder;
 import javax.swing.border.LineBorder;
+import javax.swing.JLabel;
+import java.awt.Font;
 
 public class MedeaGUI1 extends JFrame {
 
@@ -40,15 +42,15 @@ public class MedeaGUI1 extends JFrame {
 		System.out.println("JFrame Width: " + width + " Height: " + height);
 		setBounds(0, 0, (int) width, (int) height);
 		setUndecorated(true);
+		
+		JLabel lblHejhejhej = new JLabel("HEJHEJHEJ");
+		lblHejhejhej.setFont(new Font("Lucida Grande", Font.PLAIN, 80));
+		getContentPane().add(lblHejhejhej, BorderLayout.CENTER);
 		contentPane = new JPanel();
 		contentPane.setBackground(Color.DARK_GRAY);
 		contentPane.setBorder(new LineBorder(new Color(0, 0, 0)));
 		contentPane.setLayout(null);
 		
-		JPanel panel_1 = new JPanel();
-		 panel_1.setBackground(Color.WHITE);
-		 panel_1.setBounds(194, 127, 50, 50);
-		 contentPane.add(panel_1);
 	}
 
 }
