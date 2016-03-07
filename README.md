@@ -1,1 +1,7 @@
 # MEDEAGrupp2
+
+
+
+
+
+MADDE
