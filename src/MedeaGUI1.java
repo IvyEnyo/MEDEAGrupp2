@@ -45,7 +45,7 @@ public class MedeaGUI1 extends JFrame {
 		setUndecorated(true);
 		
 		JLabel lblNewLabel = new JLabel("");
-		lblNewLabel.setIcon(new ImageIcon("/Users/Marcus/Documents/Programmering 2/MEDEAGrupp2/src/ppwf1.jpg"));
+		lblNewLabel.setIcon(new ImageIcon("/Users/hermanwikner/Desktop/Skola/Programmering II/GitHub/MEDEAGrupp2/src/ppwf1.jpg"));
 		getContentPane().add(lblNewLabel, BorderLayout.WEST);
 		contentPane = new JPanel();
 		contentPane.setBackground(Color.DARK_GRAY);
