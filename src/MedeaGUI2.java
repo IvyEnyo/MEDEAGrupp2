@@ -12,7 +12,7 @@ import javax.swing.JLabel;
 import java.awt.Font;
 import javax.swing.ImageIcon;
 
-public class MedeaGUI1 extends JFrame {
+public class MedeaGUI2 extends JFrame {
 
 	private JPanel contentPane;
 
@@ -23,7 +23,7 @@ public class MedeaGUI1 extends JFrame {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
-					MedeaGUI1 frame = new MedeaGUI1();
+					MedeaGUI2 frame = new MedeaGUI2();
 					frame.setVisible(true);
 				} catch (Exception e) {
 					e.printStackTrace();
@@ -35,7 +35,7 @@ public class MedeaGUI1 extends JFrame {
 	/**
 	 * Create the frame.
 	 */
-	public MedeaGUI1() {
+	public MedeaGUI2() {
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize();
 		double width = screenSize.getWidth();
@@ -45,8 +45,8 @@ public class MedeaGUI1 extends JFrame {
 		setUndecorated(true);
 		
 		JLabel lblNewLabel = new JLabel("");
-		lblNewLabel.setIcon(new ImageIcon("/Users/Marcus/Documents/Programmering 2/MEDEAGrupp2/src/ppwf1.jpg"));
-		getContentPane().add(lblNewLabel, BorderLayout.WEST);
+		lblNewLabel.setIcon(new ImageIcon("/Users/Marcus/Documents/Programmering 2/MEDEAGrupp2/src/ppwf2.jpg"));
+		getContentPane().add(lblNewLabel, BorderLayout.NORTH);
 		contentPane = new JPanel();
 		contentPane.setBackground(Color.DARK_GRAY);
 		contentPane.setBorder(new LineBorder(new Color(0, 0, 0)));
