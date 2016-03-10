@@ -43,10 +43,12 @@ public class MedeaGUI1 extends JFrame {
 		System.out.println("JFrame Width: " + width + " Height: " + height);
 		setBounds(0, 0, (int) width, (int) height);
 		setUndecorated(true);
+		getContentPane().setLayout(null);
 		
 		JLabel lblNewLabel = new JLabel("");
 		lblNewLabel.setIcon(new ImageIcon("/Users/hermanwikner/Desktop/Skola/Programmering II/GitHub/MEDEAGrupp2/src/ppwf1.jpg"));
-		getContentPane().add(lblNewLabel, BorderLayout.WEST);
+		lblNewLabel.setBounds(0, 0, 1080, 1920);
+		getContentPane().add(lblNewLabel);
 		contentPane = new JPanel();
 		contentPane.setBackground(Color.DARK_GRAY);
 		contentPane.setBorder(new LineBorder(new Color(0, 0, 0)));
