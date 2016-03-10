@@ -36,12 +36,8 @@ public class MedeaGUI1 extends JFrame {
 	 * Create the frame.
 	 */
 	public MedeaGUI1() {
-		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize();
-		double width = screenSize.getWidth();
-		double height = screenSize.getHeight();
-		System.out.println("JFrame Width: " + width + " Height: " + height);
-		setBounds(0, 0, (int) width, (int) height);
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);;
+		setBounds(0, 0, 1080, 1920);
 		setUndecorated(true);
 		getContentPane().setLayout(null);
 		
