@@ -32,7 +32,7 @@ public class SlideShow1 extends JFrame {
 		photo.setBounds(40, 30, 700, 300); 
 		SetImageSize(2); // the number of photos in the array
 		
-		tm = new Timer(10000, new ActionListener() {
+		tm = new Timer(1000, new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				SetImageSize(x);
 				x +=1; 
