@@ -14,6 +14,7 @@ import javax.swing.JButton;
 import javax.swing.JTextArea;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
+import javax.swing.JScrollPane;
 
 public class MEDEASteerGUI extends JFrame {
 
@@ -54,22 +55,31 @@ public class MEDEASteerGUI extends JFrame {
 		setContentPane(contentPane);
 		contentPane.setLayout(null);
 		
+		JScrollPane scrollPane_1 = new JScrollPane();
+		scrollPane_1.setBounds(189, 53, 308, 78);
+		contentPane.add(scrollPane_1);
+		
 		amneField = new JTextField();
+		scrollPane_1.setViewportView(amneField);
 		amneField.setFont(new Font("Avenir", Font.PLAIN, 12));
-		amneField.setBounds(189, 53, 308, 78);
-		contentPane.add(amneField);
 		amneField.setColumns(10);
 		
+		JScrollPane scrollPane_2 = new JScrollPane();
+		scrollPane_2.setBounds(189, 176, 308, 78);
+		contentPane.add(scrollPane_2);
+		
 		tidField = new JTextField();
+		scrollPane_2.setViewportView(tidField);
 		tidField.setFont(new Font("Avenir", Font.PLAIN, 12));
-		tidField.setBounds(189, 176, 308, 78);
-		contentPane.add(tidField);
 		tidField.setColumns(10);
 		
+		JScrollPane scrollPane_3 = new JScrollPane();
+		scrollPane_3.setBounds(189, 285, 308, 78);
+		contentPane.add(scrollPane_3);
+		
 		platsField = new JTextField();
+		scrollPane_3.setViewportView(platsField);
 		platsField.setFont(new Font("Avenir", Font.PLAIN, 12));
-		platsField.setBounds(189, 285, 308, 78);
-		contentPane.add(platsField);
 		platsField.setColumns(10);
 		
 		JLabel lblNewLabel = new JLabel("");
@@ -107,11 +117,14 @@ public class MEDEASteerGUI extends JFrame {
 		lblNewLabel_2.setBounds(581, 31, 81, 14);
 		contentPane.add(lblNewLabel_2);
 		
+		JScrollPane scrollPane = new JScrollPane();
+		scrollPane.setBounds(509, 84, 201, 238);
+		contentPane.add(scrollPane);
+		
 		JTextArea skarmArea = new JTextArea();
+		scrollPane.setViewportView(skarmArea);
 		skarmArea.setFont(new Font("Avenir", Font.PLAIN, 15));
 		skarmArea.setEditable(false);
-		skarmArea.setBounds(509, 84, 201, 238);
-		contentPane.add(skarmArea);
 		
 		JButton btnNewButton = new JButton("SPARA");
 		btnNewButton.addActionListener(new ActionListener() {
