@@ -20,10 +20,17 @@ public class SlideShow1 extends JFrame {
 
 		
 			
+<<<<<<< Updated upstream
 		/*	"/Users/hermanwikner/Desktop/Skola/Programmering II/GitHub/MEDEAGrupp2/Wiki images/fundersam.jpg",
 			"/Users/hermanwikner/Desktop/Skola/Programmering II/GitHub/MEDEAGrupp2/Wiki images/förvirrad.jpg",
 			"/Users/hermanwikner/Desktop/Skola/Programmering II/GitHub/MEDEAGrupp2/Wiki images/hängande.jpg",
 			"/Users/hermanwikner/Desktop/Skola/Programmering II/GitHub/MEDEAGrupp2/Wiki images/utsträckta.jpg" */
+=======
+			"/img/Wiki_images/fundersam.jpg",
+			"/img/Wiki_images/forvirrad.jpg",
+			"/img/Wiki_images/hangande.jpg",
+			"/img/Wiki_images/utstrackta.jpg"
+>>>>>>> Stashed changes
 
 			
 
@@ -32,7 +39,7 @@ public class SlideShow1 extends JFrame {
 	public SlideShow1() {
 		super("java SlideShow");
 		photo = new JLabel();
-		photo.setBounds(0, 0, 1080, 1920); 
+		photo.setBounds(0, 0, 405, 720); 
 		SetImageSize(2); // the number of photos in the array
 
 		
@@ -48,7 +55,7 @@ public class SlideShow1 extends JFrame {
 		add(photo); 
 		tm.start();
 		setLayout(null);
-		setSize(1080,1920); 
+		setSize(405, 720); 
 		getContentPane();
 		setLocationRelativeTo(null);
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -56,8 +63,9 @@ public class SlideShow1 extends JFrame {
 	}
 	
 	public void SetImageSize(int i) {
-		ImageIcon icon = new ImageIcon(list[i]);
-		Image img = icon.getImage(); 
+		ImageIcon icon = new ImageIcon(SlideShow1.class.getResource("/img/forvirrad.jpg"));
+		//ImageIcon icon = new ImageIcon(list[i]);
+		Image img = icon.getImage();  
 		Image newImg = img.getScaledInstance(photo.getWidth(), photo.getHeight(), Image.SCALE_SMOOTH);
 		ImageIcon newImc = new ImageIcon(newImg);
 		photo.setIcon(newImc);
