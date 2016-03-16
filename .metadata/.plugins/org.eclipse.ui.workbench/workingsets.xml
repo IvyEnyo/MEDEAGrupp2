@@ -1,8 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <workingSetManager>
-<<<<<<< Updated upstream
-<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1458117146467_0" label="Window Working Set" name="Aggregate for window 1457354662249"/>
-=======
-<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1458118502334_0" label="Window Working Set" name="Aggregate for window 1457354662249"/>
->>>>>>> Stashed changes
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1458120731944_0" label="Window Working Set" name="Aggregate for window 1458120731943"/>
 </workingSetManager>
