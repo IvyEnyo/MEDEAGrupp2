@@ -47,7 +47,7 @@ public class MEDEASteerGUI extends JFrame {
 		setTitle("INFO SK\u00C4RMEN");
 		setIconImage(Toolkit.getDefaultToolkit().getImage("C:\\Users\\Hampus\\Desktop\\Elipse workspace1\\Testing_GUI\\img\\ma1.png"));
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		setBounds(100, 100, 1276, 940);
+		setBounds(100, 100, 753, 497);
 		contentPane = new JPanel();
 		contentPane.setBackground(Color.DARK_GRAY);
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
