@@ -11,7 +11,7 @@ import java.awt.Color;
 import java.awt.Font;
 import java.awt.Toolkit;
 
-public class GUI_Test extends JFrame {
+public class MEDEASteerGUI extends JFrame {
 
 	private JPanel contentPane;
 	private JTextField textField;
@@ -27,7 +27,7 @@ public class GUI_Test extends JFrame {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
-					GUI_Test frame = new GUI_Test();
+					MEDEASteerGUI frame = new MEDEASteerGUI();
 					frame.setVisible(true);
 				} catch (Exception e) {
 					e.printStackTrace();
@@ -39,7 +39,7 @@ public class GUI_Test extends JFrame {
 	/**
 	 * Create the frame.
 	 */
-	public GUI_Test() {
+	public MEDEASteerGUI() {
 		setTitle("INFO SK\u00C4RMEN");
 		setIconImage(Toolkit.getDefaultToolkit().getImage("C:\\Users\\Hampus\\Desktop\\Elipse workspace1\\Testing_GUI\\img\\ma1.png"));
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
