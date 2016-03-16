@@ -3,7 +3,7 @@
   <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;workbench>&#xA;&lt;mruList/>&#xA;&lt;/workbench>"/>
   <tags>activeSchemeId:org.eclipse.ui.defaultAcceleratorConfiguration</tags>
   <tags>ModelMigrationProcessor.001</tags>
-  <children xsi:type="basic:TrimmedWindow" xmi:id="_TdI9YuRiEeWhp9XxFaEApQ" elementId="IDEWindow" contributorURI="platform:/plugin/org.eclipse.platform" selectedElement="_T1734uRiEeWhp9XxFaEApQ" label="%trimmedwindow.label.eclipseSDK" x="42" y="23" width="1024" height="707">
+  <children xsi:type="basic:TrimmedWindow" xmi:id="_TdI9YuRiEeWhp9XxFaEApQ" elementId="IDEWindow" contributorURI="platform:/plugin/org.eclipse.platform" selectedElement="_T1734uRiEeWhp9XxFaEApQ" label="%trimmedwindow.label.eclipseSDK" x="253" y="130" width="1024" height="707">
     <persistedState key="coolBarVisible" value="true"/>
     <persistedState key="perspectiveBarVisible" value="true"/>
     <persistedState key="isRestored" value="true"/>
@@ -109,7 +109,7 @@
       </children>
     </sharedElements>
     <sharedElements xsi:type="basic:Part" xmi:id="_UBBtkORiEeWhp9XxFaEApQ" elementId="org.eclipse.ui.navigator.ProjectExplorer" contributionURI="bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" label="Project Explorer" iconURI="platform:/plugin/org.eclipse.ui.navigator.resources/icons/full/eview16/resource_persp.gif" tooltip="" closeable="true">
-      <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;view CommonNavigator.LINKING_ENABLED=&quot;0&quot; org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets=&quot;0&quot;/>"/>
+      <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xA;&lt;view CommonNavigator.LINKING_ENABLED=&quot;0&quot; currentWorkingSetName=&quot;Aggregate for window 1457354662249&quot; org.eclipse.ui.navigator.resources.workingSets.showTopLevelWorkingSets=&quot;0&quot;/>"/>
       <tags>View</tags>
       <tags>categoryTag:General</tags>
       <tags>active</tags>
@@ -167,7 +167,11 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_T3mEwORiEeWhp9XxFaEApQ" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
+<<<<<<< Updated upstream
         <children xsi:type="menu:HandledToolItem" xmi:id="_m7EUIOtREeWPl-g8RdL9Mg" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_Td2vEuRiEeWhp9XxFaEApQ"/>
+=======
+        <children xsi:type="menu:HandledToolItem" xmi:id="_w8pmcOtUEeWPUJuF8lp4Ww" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_Td2vEuRiEeWhp9XxFaEApQ"/>
+>>>>>>> Stashed changes
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_T3mEweRiEeWhp9XxFaEApQ" elementId="additions" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -185,7 +189,11 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_T3mr0uRiEeWhp9XxFaEApQ" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
+<<<<<<< Updated upstream
         <children xsi:type="menu:HandledToolItem" xmi:id="_m7HXcOtREeWPl-g8RdL9Mg" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_Td0S3uRiEeWhp9XxFaEApQ"/>
+=======
+        <children xsi:type="menu:HandledToolItem" xmi:id="_w8tQ0OtUEeWPUJuF8lp4Ww" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_Td0S3uRiEeWhp9XxFaEApQ"/>
+>>>>>>> Stashed changes
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_T3mr0-RiEeWhp9XxFaEApQ" elementId="group.editor" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -332,6 +340,7 @@
     <bindings xmi:id="_Te5Q4eRiEeWhp9XxFaEApQ" keySequence="ALT+SHIFT+ARROW_LEFT" command="_Td39SuRiEeWhp9XxFaEApQ">
       <tags>platform:cocoa</tags>
     </bindings>
+    <bindings xmi:id="_wnqN4OtUEeWPUJuF8lp4Ww" keySequence="ALT+CTRL+SPACE" command="_TdvaaORiEeWhp9XxFaEApQ"/>
   </bindingTables>
   <bindingTables xmi:id="_Telu4ORiEeWhp9XxFaEApQ" elementId="org.eclipse.wst.sse.ui.structuredTextEditorScope" bindingContext="_Td-q8ORiEeWhp9XxFaEApQ">
     <bindings xmi:id="_Telu4eRiEeWhp9XxFaEApQ" keySequence="CTRL+SHIFT+ARROW_LEFT" command="_TdwBfORiEeWhp9XxFaEApQ">
@@ -603,7 +612,12 @@
       <tags>platform:cocoa</tags>
       <parameters xmi:id="_Te7GG-RiEeWhp9XxFaEApQ" elementId="org.eclipse.ui.views.showView.viewId" name="org.eclipse.ui.views.showView.viewId" value="org.eclipse.team.ui.GenericHistoryView"/>
     </bindings>
+<<<<<<< Updated upstream
     <bindings xmi:id="_mkbVwetREeWPl-g8RdL9Mg" keySequence="COMMAND+CTRL+F" command="_TfKWoORiEeWhp9XxFaEApQ"/>
+=======
+    <bindings xmi:id="_wn7ToOtUEeWPUJuF8lp4Ww" keySequence="ALT+COMMAND+X G" command="_wnB7wOtUEeWPUJuF8lp4Ww"/>
+    <bindings xmi:id="_woQq0OtUEeWPUJuF8lp4Ww" keySequence="COMMAND+CTRL+F" command="_TfKWoORiEeWhp9XxFaEApQ"/>
+>>>>>>> Stashed changes
   </bindingTables>
   <bindingTables xmi:id="_Telu5ORiEeWhp9XxFaEApQ" elementId="org.eclipse.jdt.ui.javaEditorScope" bindingContext="_Td-q6uRiEeWhp9XxFaEApQ">
     <bindings xmi:id="_TemV8ORiEeWhp9XxFaEApQ" keySequence="COMMAND+SHIFT+C" command="_TduzYORiEeWhp9XxFaEApQ"/>
@@ -617,7 +631,6 @@
     <bindings xmi:id="_TeoyOuRiEeWhp9XxFaEApQ" keySequence="COMMAND+CTRL+\" command="_TdxPjeRiEeWhp9XxFaEApQ">
       <tags>platform:cocoa</tags>
     </bindings>
-    <bindings xmi:id="_TepZQ-RiEeWhp9XxFaEApQ" keySequence="ALT+CTRL+SPACE" command="_TdvaaORiEeWhp9XxFaEApQ"/>
     <bindings xmi:id="_TeqAU-RiEeWhp9XxFaEApQ" keySequence="COMMAND+F3" command="_Td4kbeRiEeWhp9XxFaEApQ"/>
     <bindings xmi:id="_TeqAWuRiEeWhp9XxFaEApQ" keySequence="CTRL+SHIFT+END" command="_TdxPgORiEeWhp9XxFaEApQ">
       <tags>platform:cocoa</tags>
@@ -766,7 +779,11 @@
     <bindings xmi:id="_Te3btORiEeWhp9XxFaEApQ" keySequence="F1" command="_TduzSORiEeWhp9XxFaEApQ"/>
   </bindingTables>
   <bindingTables xmi:id="_TfK9s-RiEeWhp9XxFaEApQ" contributorURI="platform:/fragment/org.eclipse.e4.ui.workbench.renderers.swt.cocoa" bindingContext="_TdI9Z-RiEeWhp9XxFaEApQ">
+<<<<<<< Updated upstream
     <bindings xmi:id="_mkb80OtREeWPl-g8RdL9Mg" keySequence="M1+W" command="_TfK9seRiEeWhp9XxFaEApQ"/>
+=======
+    <bindings xmi:id="_woRR4OtUEeWPUJuF8lp4Ww" keySequence="M1+W" command="_TfK9seRiEeWhp9XxFaEApQ"/>
+>>>>>>> Stashed changes
   </bindingTables>
   <bindingTables xmi:id="_UA7m8eRiEeWhp9XxFaEApQ" bindingContext="_UA7m8ORiEeWhp9XxFaEApQ"/>
   <bindingTables xmi:id="_UA7m8-RiEeWhp9XxFaEApQ" bindingContext="_UA7m8uRiEeWhp9XxFaEApQ"/>
@@ -2078,6 +2095,13 @@
   <commands xmi:id="_T1JNsORiEeWhp9XxFaEApQ" elementId="AUTOGEN:::org.eclipse.mylyn.tasks.ui.actions.view/org.eclipse.mylyn.tasks.ui.open.repositories.view" commandName="Show Task Repositories View" description="Show Task Repositories View" category="_TdrwC-RiEeWhp9XxFaEApQ"/>
   <commands xmi:id="_T1JNseRiEeWhp9XxFaEApQ" elementId="AUTOGEN:::org.eclipse.mylyn.tasks.ui.actions.view/org.eclipse.mylyn.doc.legend.show.action" commandName="Show UI Legend" description="Show Tasks UI Legend" category="_TdrwC-RiEeWhp9XxFaEApQ"/>
   <commands xmi:id="_T1J0wORiEeWhp9XxFaEApQ" elementId="AUTOGEN:::org.eclipse.mylyn.tasks.ui.actions.view/org.eclipse.mylyn.context.ui.actions.tasklist.focus" commandName="Focus on Workweek" description="Focus on Workweek" category="_TdrwC-RiEeWhp9XxFaEApQ"/>
+  <commands xmi:id="_wnBUsetUEeWPUJuF8lp4Ww" elementId="org.eclipse.mylyn.builds.ui.command.ShowBuildOutput.url" commandName="Show Build Output" category="_TdrwC-RiEeWhp9XxFaEApQ"/>
+  <commands xmi:id="_wnBUsutUEeWPUJuF8lp4Ww" elementId="org.eclipse.mylyn.builds.ui.command.ShowTestResults.url" commandName="Show Test Results" category="_TdrwC-RiEeWhp9XxFaEApQ"/>
+  <commands xmi:id="_wnB7wOtUEeWPUJuF8lp4Ww" elementId="org.eclipse.buildship.ui.shortcut.test.run" commandName="Run Gradle Test" description="Run Gradle test based on the current selection" category="_TdrwAeRiEeWhp9XxFaEApQ"/>
+  <commands xmi:id="_wnB7wetUEeWPUJuF8lp4Ww" elementId="org.eclipse.mylyn.builds.ui.commands.OpenBuildElementWithBrowser.url" commandName="Open Build with Browser" category="_TdrwC-RiEeWhp9XxFaEApQ"/>
+  <commands xmi:id="_wtqIMOtUEeWPUJuF8lp4Ww" elementId="org.eclipse.egit.ui.team.CompareWithCommit" commandName="org.eclipse.egit.ui.team.CompareWithCommit"/>
+  <commands xmi:id="_wtskcOtUEeWPUJuF8lp4Ww" elementId="org.eclipse.egit.ui.team.CompareWithRevision" commandName="org.eclipse.egit.ui.team.CompareWithRevision"/>
+  <commands xmi:id="_wtuZoOtUEeWPUJuF8lp4Ww" elementId="org.eclipse.egit.ui.team.ReplaceWithPrevious" commandName="org.eclipse.egit.ui.team.ReplaceWithPrevious"/>
   <addons xmi:id="_TdI9aORiEeWhp9XxFaEApQ" elementId="org.eclipse.e4.core.commands.service" contributorURI="platform:/plugin/org.eclipse.platform" contributionURI="bundleclass://org.eclipse.e4.core.commands/org.eclipse.e4.core.commands.CommandServiceAddon"/>
   <addons xmi:id="_TdI9aeRiEeWhp9XxFaEApQ" elementId="org.eclipse.e4.ui.contexts.service" contributorURI="platform:/plugin/org.eclipse.platform" contributionURI="bundleclass://org.eclipse.e4.ui.services/org.eclipse.e4.ui.services.ContextServiceAddon"/>
   <addons xmi:id="_TdI9auRiEeWhp9XxFaEApQ" elementId="org.eclipse.e4.ui.bindings.service" contributorURI="platform:/plugin/org.eclipse.platform" contributionURI="bundleclass://org.eclipse.e4.ui.bindings/org.eclipse.e4.ui.bindings.BindingServiceAddon"/>

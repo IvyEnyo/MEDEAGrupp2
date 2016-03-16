@@ -30,6 +30,7 @@ Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.
 !ENTRY org.eclipse.core.net 1 0 2016-03-07 13:42:26.054
 >>>>>>> 321e87a692fa4a1c755d856490e86e153a02f1fb
 !MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+<<<<<<< Updated upstream
 !SESSION 2016-03-16 09:32:14.435 -----------------------------------------------
 eclipse.buildId=4.5.1.M20150904-0015
 java.version=1.8.0_65
@@ -42,19 +43,42 @@ Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.
 !MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
 
 !ENTRY org.eclipse.ui 4 0 2016-03-16 09:32:26.400
+=======
+!SESSION 2016-03-16 09:54:38.671 -----------------------------------------------
+eclipse.buildId=4.5.2.M20160212-1500
+java.version=1.8.0_73
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=sv_SE
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/IvyEnyo/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/IvyEnyo/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2016-03-16 09:55:00.332
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.ui 4 0 2016-03-16 09:55:02.260
+>>>>>>> Stashed changes
 !MESSAGE Unable to restore working set state.
 !STACK 1
 org.eclipse.ui.WorkbenchException: Elementinnehållet måste bestå av välformulerad(e) teckendata eller kodtext.
 	at org.eclipse.ui.XMLMemento.createReadRoot(XMLMemento.java:147)
 	at org.eclipse.ui.XMLMemento.createReadRoot(XMLMemento.java:66)
 	at org.eclipse.ui.internal.WorkingSetManager.restoreState(WorkingSetManager.java:103)
+<<<<<<< Updated upstream
 	at org.eclipse.ui.internal.WorkbenchPlugin$15.compute(WorkbenchPlugin.java:1435)
+=======
+	at org.eclipse.ui.internal.WorkbenchPlugin$15.compute(WorkbenchPlugin.java:1437)
+>>>>>>> Stashed changes
 	at org.eclipse.e4.core.internal.contexts.ValueComputation.get(ValueComputation.java:62)
 	at org.eclipse.e4.core.internal.contexts.EclipseContext.internalGet(EclipseContext.java:247)
 	at org.eclipse.e4.core.internal.contexts.EclipseContext.get(EclipseContext.java:213)
 	at org.eclipse.e4.core.internal.contexts.EclipseContext.get(EclipseContext.java:591)
+<<<<<<< Updated upstream
 	at org.eclipse.ui.internal.WorkbenchPlugin.getWorkingSetManager(WorkbenchPlugin.java:543)
 	at org.eclipse.ui.internal.Workbench.getWorkingSetManager(Workbench.java:1568)
+=======
+	at org.eclipse.ui.internal.WorkbenchPlugin.getWorkingSetManager(WorkbenchPlugin.java:544)
+	at org.eclipse.ui.internal.Workbench.getWorkingSetManager(Workbench.java:1608)
+>>>>>>> Stashed changes
 	at org.eclipse.ui.internal.views.markers.CachedMarkerBuilder.start(CachedMarkerBuilder.java:115)
 	at org.eclipse.ui.internal.views.markers.ExtendedMarkersView.startView(ExtendedMarkersView.java:456)
 	at org.eclipse.ui.internal.views.markers.ExtendedMarkersView.createPartControl(ExtendedMarkersView.java:440)
@@ -150,9 +174,15 @@ org.eclipse.ui.WorkbenchException: Elementinnehållet måste bestå av välformu
 	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
 	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1018)
 	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+<<<<<<< Updated upstream
 	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:654)
 	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
 	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:598)
+=======
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:694)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:606)
+>>>>>>> Stashed changes
 	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
 	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:139)
 	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
@@ -184,7 +214,11 @@ Caused by: org.xml.sax.SAXParseException; lineNumber: 3; columnNumber: 2; Elemen
 	at com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(DocumentBuilderImpl.java:339)
 	at org.eclipse.ui.XMLMemento.createReadRoot(XMLMemento.java:120)
 	... 121 more
+<<<<<<< Updated upstream
 !SUBENTRY 1 org.eclipse.ui 4 0 2016-03-16 09:32:26.403
+=======
+!SUBENTRY 1 org.eclipse.ui 4 0 2016-03-16 09:55:02.264
+>>>>>>> Stashed changes
 !MESSAGE Elementinnehållet måste bestå av välformulerad(e) teckendata eller kodtext.
 !STACK 0
 org.xml.sax.SAXParseException; lineNumber: 3; columnNumber: 2; Elementinnehållet måste bestå av välformulerad(e) teckendata eller kodtext.
@@ -205,13 +239,22 @@ org.xml.sax.SAXParseException; lineNumber: 3; columnNumber: 2; Elementinnehålle
 	at org.eclipse.ui.XMLMemento.createReadRoot(XMLMemento.java:120)
 	at org.eclipse.ui.XMLMemento.createReadRoot(XMLMemento.java:66)
 	at org.eclipse.ui.internal.WorkingSetManager.restoreState(WorkingSetManager.java:103)
+<<<<<<< Updated upstream
 	at org.eclipse.ui.internal.WorkbenchPlugin$15.compute(WorkbenchPlugin.java:1435)
+=======
+	at org.eclipse.ui.internal.WorkbenchPlugin$15.compute(WorkbenchPlugin.java:1437)
+>>>>>>> Stashed changes
 	at org.eclipse.e4.core.internal.contexts.ValueComputation.get(ValueComputation.java:62)
 	at org.eclipse.e4.core.internal.contexts.EclipseContext.internalGet(EclipseContext.java:247)
 	at org.eclipse.e4.core.internal.contexts.EclipseContext.get(EclipseContext.java:213)
 	at org.eclipse.e4.core.internal.contexts.EclipseContext.get(EclipseContext.java:591)
+<<<<<<< Updated upstream
 	at org.eclipse.ui.internal.WorkbenchPlugin.getWorkingSetManager(WorkbenchPlugin.java:543)
 	at org.eclipse.ui.internal.Workbench.getWorkingSetManager(Workbench.java:1568)
+=======
+	at org.eclipse.ui.internal.WorkbenchPlugin.getWorkingSetManager(WorkbenchPlugin.java:544)
+	at org.eclipse.ui.internal.Workbench.getWorkingSetManager(Workbench.java:1608)
+>>>>>>> Stashed changes
 	at org.eclipse.ui.internal.views.markers.CachedMarkerBuilder.start(CachedMarkerBuilder.java:115)
 	at org.eclipse.ui.internal.views.markers.ExtendedMarkersView.startView(ExtendedMarkersView.java:456)
 	at org.eclipse.ui.internal.views.markers.ExtendedMarkersView.createPartControl(ExtendedMarkersView.java:440)
@@ -307,9 +350,15 @@ org.xml.sax.SAXParseException; lineNumber: 3; columnNumber: 2; Elementinnehålle
 	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
 	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1018)
 	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:156)
+<<<<<<< Updated upstream
 	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:654)
 	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
 	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:598)
+=======
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:694)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:337)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:606)
+>>>>>>> Stashed changes
 	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
 	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:139)
 	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
@@ -324,6 +373,7 @@ org.xml.sax.SAXParseException; lineNumber: 3; columnNumber: 2; Elementinnehålle
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:669)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:608)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1515)
+<<<<<<< Updated upstream
 
 !ENTRY org.eclipse.epp.logging.aeri.ui 2 5 2016-03-16 09:32:27.479
 !MESSAGE The configuration download failed. Version: 1.0.1.v20150913-0716
@@ -366,3 +416,5 @@ Caused by: com.google.gson.stream.MalformedJsonException: Expected ':' at line 5
 	at com.google.gson.internal.bind.ReflectiveTypeAdapterFactory$Adapter.read(ReflectiveTypeAdapterFactory.java:170)
 	at com.google.gson.Gson.fromJson(Gson.java:803)
 	... 8 more
+=======
+>>>>>>> Stashed changes
