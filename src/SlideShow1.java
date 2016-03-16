@@ -17,12 +17,21 @@ public class SlideShow1 extends JFrame {
 		/*	"/Users/IvyEnyo/MEDEAGrupp2/src/ppwf2.jpg",
 			"/Users/IvyEnyo/MEDEAGrupp2/src/ppwf3.jpg",
 			"/Users/IvyEnyo/MEDEAGrupp2/src/ppwf1.jpg" */
+<<<<<<< HEAD
 		
 			
+=======
+
+
+>>>>>>> origin/master
 			"/img/Wiki_images/fundersam.jpg",
 			"/img/Wiki_images/forvirrad.jpg",
 			"/img/Wiki_images/hangande.jpg",
 			"/img/Wiki_images/utstrackta.jpg"
+<<<<<<< HEAD
+=======
+			
+>>>>>>> origin/master
 
 		
 	};
