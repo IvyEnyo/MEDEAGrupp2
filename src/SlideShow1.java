@@ -12,9 +12,17 @@ public class SlideShow1 extends JFrame {
 	Timer tm; 
 	int x = 0; 
 	String [] list = {
+			
+			/**
 			"/Users/IvyEnyo/MEDEAGrupp2/src/ppwf2.jpg",
 			"/Users/IvyEnyo/MEDEAGrupp2/src/ppwf3.jpg",
 			"/Users/IvyEnyo/MEDEAGrupp2/src/ppwf1.jpg"
+			*/
+			
+			"/Users/hermanwikner/Desktop/Skola/Programmering II/GitHub/MEDEAGrupp2/Wiki images/ppwf2.jpg",
+			"/Users/hermanwikner/Desktop/Skola/Programmering II/GitHub/MEDEAGrupp2/Wiki images/ppwf3.jpg",
+			"/Users/hermanwikner/Desktop/Skola/Programmering II/GitHub/MEDEAGrupp2/Wiki images/ppwf1.jpg"
+
 			
 	};
 	
@@ -24,7 +32,7 @@ public class SlideShow1 extends JFrame {
 		photo.setBounds(40, 30, 700, 300); 
 		SetImageSize(2); // the number of photos in the array
 		
-		tm = new Timer(1000, new ActionListener() {
+		tm = new Timer(10000, new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				SetImageSize(x);
 				x +=1; 
