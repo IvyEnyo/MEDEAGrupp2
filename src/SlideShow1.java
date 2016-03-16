@@ -17,23 +17,14 @@ public class SlideShow1 extends JFrame {
 		/*	"/Users/IvyEnyo/MEDEAGrupp2/src/ppwf2.jpg",
 			"/Users/IvyEnyo/MEDEAGrupp2/src/ppwf3.jpg",
 			"/Users/IvyEnyo/MEDEAGrupp2/src/ppwf1.jpg" */
-
 		
 			
-<<<<<<< Updated upstream
-		/*	"/Users/hermanwikner/Desktop/Skola/Programmering II/GitHub/MEDEAGrupp2/Wiki images/fundersam.jpg",
-			"/Users/hermanwikner/Desktop/Skola/Programmering II/GitHub/MEDEAGrupp2/Wiki images/förvirrad.jpg",
-			"/Users/hermanwikner/Desktop/Skola/Programmering II/GitHub/MEDEAGrupp2/Wiki images/hängande.jpg",
-			"/Users/hermanwikner/Desktop/Skola/Programmering II/GitHub/MEDEAGrupp2/Wiki images/utsträckta.jpg" */
-=======
 			"/img/Wiki_images/fundersam.jpg",
 			"/img/Wiki_images/forvirrad.jpg",
 			"/img/Wiki_images/hangande.jpg",
 			"/img/Wiki_images/utstrackta.jpg"
->>>>>>> Stashed changes
 
-			
-
+		
 	};
 	
 	public SlideShow1() {
