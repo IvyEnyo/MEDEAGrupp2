@@ -19,9 +19,10 @@ public class SlideShow1 extends JFrame {
 			"/Users/IvyEnyo/MEDEAGrupp2/src/ppwf1.jpg"
 			*/
 			
-			"/Users/hermanwikner/Desktop/Skola/Programmering II/GitHub/MEDEAGrupp2/Wiki images/ppwf2.jpg",
-			"/Users/hermanwikner/Desktop/Skola/Programmering II/GitHub/MEDEAGrupp2/Wiki images/ppwf3.jpg",
-			"/Users/hermanwikner/Desktop/Skola/Programmering II/GitHub/MEDEAGrupp2/Wiki images/ppwf1.jpg"
+			"/Users/hermanwikner/Desktop/Skola/Programmering II/GitHub/MEDEAGrupp2/Wiki images/fundersam.jpg",
+			"/Users/hermanwikner/Desktop/Skola/Programmering II/GitHub/MEDEAGrupp2/Wiki images/förvirrad.jpg",
+			"/Users/hermanwikner/Desktop/Skola/Programmering II/GitHub/MEDEAGrupp2/Wiki images/hängande.jpg",
+			"/Users/hermanwikner/Desktop/Skola/Programmering II/GitHub/MEDEAGrupp2/Wiki images/utsträckta.jpg"
 
 			
 	};
@@ -29,7 +30,7 @@ public class SlideShow1 extends JFrame {
 	public SlideShow1() {
 		super("java SlideShow");
 		photo = new JLabel();
-		photo.setBounds(40, 30, 700, 300); 
+		photo.setBounds(0, 0, 1080, 1920); 
 		SetImageSize(2); // the number of photos in the array
 		
 		tm = new Timer(1000, new ActionListener() {
@@ -43,7 +44,7 @@ public class SlideShow1 extends JFrame {
 		add(photo); 
 		tm.start();
 		setLayout(null);
-		setSize(800,800); 
+		setSize(1080,1920); 
 		getContentPane();
 		setLocationRelativeTo(null);
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
