@@ -7,22 +7,22 @@ import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.Timer;
 
-public class SlideShow1 extends JFrame {
+public class SlideShow2 extends JFrame {
 	JLabel photo; 
 	Timer tm; 
 	int x = 0; 
 	String [] list = {
 	
-			"/img/Gubbe1.1.jpg",
-			"/img/utanbubbla.jpg",
-			"/img/Gubbe1.2.jpg",
-			"/img/utanbubbla.jpg", 
-			"/img/Gubbe1.3.jpg",
-			"/img/utanbubbla.jpg"
+			"/img/utanbubblaspegel.jpg",
+			"/img/Gubbe2.1.jpg",
+			"/img/utanbubblaspegel.jpg", 
+			"/img/Gubbe2.2.jpg",
+			"/img/utanbubblaspegel.jpg",
+			"/img/Gubbe2.3.jpg",
 		
 	};
 	
-	public SlideShow1() {
+	public SlideShow2() {
 		super("java SlideShow");
 		photo = new JLabel();
 		photo.setBounds(0, 0, 405, 720); 
@@ -58,7 +58,7 @@ public class SlideShow1 extends JFrame {
 	
 public static void main(String[] args) {
 	
-	new SlideShow1();
+	new SlideShow2();
 }
 	
 }
