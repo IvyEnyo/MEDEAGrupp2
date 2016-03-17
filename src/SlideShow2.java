@@ -17,24 +17,23 @@ public class SlideShow2 extends JFrame {
 			"/img/Gubbe2.1.jpg",
 			"/img/utanbubblaspegel.jpg", 
 			"/img/Gubbe2.2.jpg",
-			"/img/utanbubblaspegel.jpg",
-			"/img/Gubbe2.3.jpg",
-		
+			"/img/utanbubblaspegel.jpg", 
+			"/img/Gubbe2.3.jpg"		
 	};
 	
 	public SlideShow2() {
-		super("java SlideShow");
+		//super("java SlideShow");
 		photo = new JLabel();
 		photo.setBounds(0, 0, 405, 720); 
-		SetImageSize(3); // the number of photos in the array
+		//SetImageSize(6); // the number of photos in the array
 
 		
 		// 5000 is the delay
-		tm = new Timer(5000, new ActionListener() {
+		tm = new Timer(1000, new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				SetImageSize(x);
 				x +=1; 
-				if(x >= list.length - 1)
+				if(x >= list.length)
 					x = 0;
 			} 
 		});
