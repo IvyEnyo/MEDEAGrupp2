@@ -24,12 +24,12 @@ public class SlideShow2 extends JFrame {
 	public SlideShow2() {
 		//super("java SlideShow");
 		photo = new JLabel();
-		photo.setBounds(0, 0, 405, 720); 
+		photo.setBounds(0, 0, 1080, 1920); 
 		//SetImageSize(6); // the number of photos in the array
 
 		
 		// 5000 is the delay
-		tm = new Timer(1000, new ActionListener() {
+		tm = new Timer(3000, new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				SetImageSize(x);
 				x +=1; 
@@ -40,7 +40,7 @@ public class SlideShow2 extends JFrame {
 		add(photo); 
 		tm.start();
 		setLayout(null);
-		setSize(405, 720); 
+		setSize(1080, 1920); 
 		getContentPane();
 		setLocationRelativeTo(null);
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);

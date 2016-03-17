@@ -25,7 +25,7 @@ public class SlideShow1 extends JFrame {
 	public SlideShow1() {
 		//super("java SlideShow");
 		photo = new JLabel();
-		photo.setBounds(0, 0, 405, 720); 
+		photo.setBounds(0, 0, 1080, 1920); 
 		//SetImageSize(6); // the number of photos in the array
 
 		
@@ -41,7 +41,7 @@ public class SlideShow1 extends JFrame {
 		add(photo); 
 		tm.start();
 		setLayout(null);
-		setSize(405, 720); 
+		setSize(1080, 1920); 
 		getContentPane();
 		setLocationRelativeTo(null);
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
