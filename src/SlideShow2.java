@@ -40,9 +40,10 @@ public class SlideShow2 extends JFrame {
 		add(photo); 
 		tm.start();
 		setLayout(null);
-		setSize(1080, 1920); 
+		setSize(1080, 1920);
 		getContentPane();
-		setLocationRelativeTo(null);
+		//setLocationRelativeTo(0, 0);
+		setLocation(0,0);
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setVisible(true);
 	}
