@@ -12,13 +12,11 @@ public class SlideShow1 extends JFrame {
 	Timer tm; 
 	int x = 0; 
 	String [] list = {
-
-
 	
-			"/img/Wiki_images/fundersam.jpg",
-			"/img/Wiki_images/forvirrad.jpg",
-			"/img/Wiki_images/hangande.jpg",
-			"/img/Wiki_images/utstrackta.jpg"
+			"/img/fundersam.jpg",
+			"/img/forvirrad.jpg",
+			"/img/hangande.jpg",
+			"/img/utstrackta.jpg" 
 		
 	};
 	
@@ -26,11 +24,11 @@ public class SlideShow1 extends JFrame {
 		super("java SlideShow");
 		photo = new JLabel();
 		photo.setBounds(0, 0, 405, 720); 
-		SetImageSize(2); // the number of photos in the array
+		SetImageSize(3); // the number of photos in the array
 
 		
 		// 1000 is the delay
-		tm = new Timer(1000, new ActionListener() {
+		tm = new Timer(5000, new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				SetImageSize(x);
 				x +=1; 
@@ -49,8 +47,7 @@ public class SlideShow1 extends JFrame {
 	}
 	
 	public void SetImageSize(int i) {
-		ImageIcon icon = new ImageIcon(SlideShow1.class.getResource("/img/forvirrad.jpg"));
-		//ImageIcon icon = new ImageIcon(list[i]);
+		ImageIcon icon = new ImageIcon(SlideShow1.class.getResource(list[i]));
 		Image img = icon.getImage();  
 		Image newImg = img.getScaledInstance(photo.getWidth(), photo.getHeight(), Image.SCALE_SMOOTH);
 		ImageIcon newImc = new ImageIcon(newImg);
