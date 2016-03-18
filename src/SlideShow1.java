@@ -26,20 +26,19 @@ public class SlideShow1 extends JFrame {
 	};
 	
 	public SlideShow1() {
-		super("java SlideShow"); // Name of the slide we don't need it.... 
+		//super("java SlideShow");
 		photo = new JLabel();
-
-		photo.setBounds(0, 0, 1080, 1920);  
-		SetImageSize(5); // the number of photos in the array
+		photo.setBounds(0, 0, 1080, 1920); 
+		//SetImageSize(6); // the number of photos in the array
 
 		
 		// 5000 is the delay
-		tm = new Timer(1000, new ActionListener() {
+		tm = new Timer(3000, new ActionListener() {
 
 			public void actionPerformed(ActionEvent e) {
 				SetImageSize(x);
 				x +=1; 
-				if(x >= list.length - 1)
+				if(x >= list.length)
 					x = 0;
 			} 
 		});
