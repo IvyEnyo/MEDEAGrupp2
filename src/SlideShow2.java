@@ -7,35 +7,30 @@ import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.Timer;
 
-public class SlideShow1 extends JFrame {
+public class SlideShow2 extends JFrame {
 	JLabel photo; 
 	Timer tm; 
 	int x = 0; 
-	
-	// List of Photo. 
 	String [] list = {
 	
-	"/img/Gubbe1.1.jpg",
-			"/img/utanbubbla.jpg",
-			"/img/Gubbe1.2.jpg",
-			"/img/utanbubbla.jpg", 
-			"/img/Gubbe1.3.jpg",
-			"/img/utanbubbla.jpg"
-
+			"/img/utanbubblaspegel.jpg",
+			"/img/Gubbe2.1.jpg",
+			"/img/utanbubblaspegel.jpg", 
+			"/img/Gubbe2.2.jpg",
+			"/img/utanbubblaspegel.jpg",
+			"/img/Gubbe2.3.jpg",
 		
 	};
 	
-	public SlideShow1() {
-		super("java SlideShow"); // Name of the slide we don't need it.... 
+	public SlideShow2() {
+		super("java SlideShow");
 		photo = new JLabel();
-
-		photo.setBounds(0, 0, 1080, 1920);  
-		SetImageSize(5); // the number of photos in the array
+		photo.setBounds(0, 0, 405, 720); 
+		SetImageSize(3); // the number of photos in the array
 
 		
 		// 5000 is the delay
-		tm = new Timer(1000, new ActionListener() {
-
+		tm = new Timer(5000, new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				SetImageSize(x);
 				x +=1; 
@@ -46,7 +41,7 @@ public class SlideShow1 extends JFrame {
 		add(photo); 
 		tm.start();
 		setLayout(null);
-		setSize(1080, 1920); 
+		setSize(405, 720); 
 		getContentPane();
 		setLocationRelativeTo(null);
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -54,16 +49,16 @@ public class SlideShow1 extends JFrame {
 	}
 	
 	public void SetImageSize(int i) {
-		ImageIcon icon = new ImageIcon(SlideShow1.class.getResource(list[i]));  // Calls the list of photos. 
+		ImageIcon icon = new ImageIcon(SlideShow1.class.getResource(list[i]));
 		Image img = icon.getImage();  
-		Image newImg = img.getScaledInstance(photo.getWidth(), photo.getHeight(), Image.SCALE_SMOOTH); 
+		Image newImg = img.getScaledInstance(photo.getWidth(), photo.getHeight(), Image.SCALE_SMOOTH);
 		ImageIcon newImc = new ImageIcon(newImg);
 		photo.setIcon(newImc);
 	}
 	
 public static void main(String[] args) {
 	
-	new SlideShow1();
+	new SlideShow2();
 }
 	
 }
