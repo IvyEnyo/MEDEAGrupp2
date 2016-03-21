@@ -21,7 +21,7 @@ public class SlideShow2 extends JFrame {
 			
 			"/img/utanbubblaspegel.jpg",
 			"/img/Gubbe2.1.jpg",
-			"/img/utanbubbla.jpg",
+			"/img/utanbubblaspegel.jpg",
 			"/img/Gubbe2.2.jpg",
 			"/img/utanbubblaspegel.jpg", 
 			"/img/Gubbe2.3.jpg"
@@ -43,7 +43,7 @@ public class SlideShow2 extends JFrame {
 				x +=1;
 				min = c.get(Calendar.MINUTE);
 				sec = c.get(Calendar.SECOND);
-				if(min % 5 == 0 && sec < 10) {
+				if(min % 3 == 0 && sec < 1) {
 					x = 0;
 				} 
 				

@@ -44,7 +44,7 @@ public class SlideShow1 extends JFrame {
 				x +=1;
 				min = c.get(Calendar.MINUTE);
 				sec = c.get(Calendar.SECOND);
-				if(min % 5 == 0 && sec < 10) {
+				if(min % 3 == 0 && sec < 1) {
 					x = 0;
 				} 
 				
