@@ -32,7 +32,7 @@ public class SlideShow2 extends JFrame {
 	
 	public SlideShow2() {
 		photo = new JLabel();
-		photo.setBounds(0, 0, 405, 720);
+		photo.setBounds(0, 0, 1080, 1920);
 		
 		// 5000 is the delay
 		tm = new Timer(3000, new ActionListener() {
@@ -55,7 +55,7 @@ public class SlideShow2 extends JFrame {
 		tm.setInitialDelay(60000 - ((sec * 1000) + ms)); // Sets a delay to start the slide show.
 		tm.start();
 		setLayout(null);
-		setSize(405, 720);
+		setSize(1080, 1920);
 		getContentPane();
 		setUndecorated(true);
 		setLocationRelativeTo(null);
@@ -64,7 +64,7 @@ public class SlideShow2 extends JFrame {
 }
 	
 	public void setImage(int i) {
-		ImageIcon icon = new ImageIcon(SlideShow1.class.getResource(list[i]));  // Calls the list of photos.
+		ImageIcon icon = new ImageIcon(SlideShow2.class.getResource(list[i]));  // Calls the list of photos.
 		Image img = icon.getImage();
 		Image newImg = img.getScaledInstance(photo.getWidth(), photo.getHeight(), Image.SCALE_SMOOTH);
 		ImageIcon newImc = new ImageIcon(newImg);
