@@ -24,11 +24,11 @@ public class MiddleScreen extends JFrame {
 			"/img/VOX1.jpg",
 			"/img/VOX2.jpg",
 			"/img/VOX3.jpg",
-			"/img/VOX4.jpg"
+			"/img/VOX4.jpg",
 			"/img/voxinfo1.jpg",
 			"/img/voxinfo2.jpg",
 			"/img/voxinfo3.jpg",
-			"/img/voxinfo4.jpg",
+			"/img/voxinfo4.jpg"
 			
 			
 	
