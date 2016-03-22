@@ -21,12 +21,11 @@ public class MiddleScreen extends JFrame {
 	// List of Photo. 
 	String [] list = {
 			
-			"/img/utanbubblaspegel.jpg",
-			"/img/Gubbe2.1.jpg",
-			"/img/utanbubblaspegel.jpg",
-			"/img/Gubbe2.2.jpg",
-			"/img/utanbubblaspegel.jpg",
-			"/img/Gubbe2.3.jpg"
+			"/img/medea1.jpg",
+			"/img/medea2.jpg",
+			"/img/medea3.jpg",
+			"/img/medea4.jpg",
+			"/img/medea5.jpg"
 	
 	};
 	
@@ -55,7 +54,7 @@ public class MiddleScreen extends JFrame {
 		tm.setInitialDelay(60000 - ((sec * 1000) + ms)); // Sets a delay to start the slide show.
 		tm.start();
 		setLayout(null);
-		setSize(1080, 1920);
+		setSize(405, 720);
 		getContentPane();
 		setUndecorated(true);
 		setLocationRelativeTo(null);
