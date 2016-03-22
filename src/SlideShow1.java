@@ -25,15 +25,14 @@ public class SlideShow1 extends JFrame {
 			"/img/utanbubbla.jpg", 
 			"/img/Gubbe1.3.jpg",
 			"/img/utanbubbla.jpg"
-
 		
 	};
 	
 	public SlideShow1() {
-		//super("java SlideShow");
+		super("java SlideShow");
 		photo = new JLabel();
-		photo.setBounds(0, 0, 1080, 1920);
-		setUndecorated(true);
+		photo.setBounds(0, 0, 405, 720);
+		//setUndecorated(true);
 		//setImage(5); // the number of photos in the array 
 		 
 		// 5000 is the delay
@@ -56,15 +55,12 @@ public class SlideShow1 extends JFrame {
 		add(photo); 
 		tm.start();
 		setLayout(null);
-		setSize(1080, 1920); 
+		setSize(405, 720); 
 		getContentPane();
 		setLocationRelativeTo(null);
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setVisible(true);
-}
-	
-
-	
+}	
 	public void setImage(int i) {
 		ImageIcon icon = new ImageIcon(SlideShow1.class.getResource(list[i]));  // Calls the list of photos. 
 		Image img = icon.getImage();  
@@ -73,13 +69,8 @@ public class SlideShow1 extends JFrame {
 		photo.setIcon(newImc);
 	}
 	
-
-	
 public static void main(String[] args) {
 	
 	new SlideShow1();
 }
-
-
-	
 }
