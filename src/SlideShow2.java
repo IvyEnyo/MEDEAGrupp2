@@ -22,7 +22,7 @@ public class SlideShow2 extends JFrame {
 	String [] list = {
 			
 			"/img/utanbubblaspegel.jpg",
-			
+			"/img/Gubbe2.1.jpg",
 			"/img/utanbubblaspegel.jpg",
 			"/img/Gubbe2.2.jpg",
 			"/img/utanbubblaspegel.jpg",
