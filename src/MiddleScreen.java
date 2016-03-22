@@ -25,10 +25,10 @@ public class MiddleScreen extends JFrame {
 			"/img/Medea3.jpg",
 			"/img/Medea4.jpg",
 			"/img/Medea5.jpg",
-			"/img/voxinfo1.jpg",
-			"/img/voxinfo2.jpg",
-			"/img/voxinfo3.jpg",
-			"/img/voxinfo4.jpg"
+			"/img/VOX1.jpg",
+			"/img/VOX2.jpg",
+			"/img/VOX3.jpg",
+			"/img/VOX4.jpg"
 			
 	
 	};
