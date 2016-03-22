@@ -40,11 +40,11 @@ public class SlideShow2 extends JFrame {
 				
 				setImage(x);
 				x +=1;
-				min = c.get(Calendar.MINUTE);
+			/**min = c.get(Calendar.MINUTE);
 				sec = c.get(Calendar.SECOND);
 				if(min % 3 == 0 && sec < 1) {
-					x = 0;
-				}
+					x = 0; 
+				}*/
 				
 				if(x >= list.length) {
 					x = 0;
