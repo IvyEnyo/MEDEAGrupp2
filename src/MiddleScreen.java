@@ -21,14 +21,15 @@ public class MiddleScreen extends JFrame {
 	// List of Photo. 
 	String [] list = {
 			
-			"/img/Medea2.jpg",
-			"/img/Medea3.jpg",
-			"/img/Medea4.jpg",
-			"/img/Medea5.jpg",
 			"/img/VOX1.jpg",
 			"/img/VOX2.jpg",
 			"/img/VOX3.jpg",
 			"/img/VOX4.jpg"
+			"/img/voxinfo1.jpg",
+			"/img/voxinfo2.jpg",
+			"/img/voxinfo3.jpg",
+			"/img/voxinfo4.jpg",
+			
 			
 	
 	};
