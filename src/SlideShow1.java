@@ -27,14 +27,13 @@ public class SlideShow1 extends JFrame {
 			"/img/utanbubbla.jpg", 
 			"/img/Gubbe1.3.jpg",
 			"/img/utanbubbla.jpg"
-
 		
 	};
 	
 	public SlideShow1() {
 		photo = new JLabel();
 		photo.setBounds(0, 0, 720, 800);
-		
+		 
 		// 5000 is the delay
 		tm = new Timer(3000, new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
@@ -62,10 +61,7 @@ public class SlideShow1 extends JFrame {
 		setLocationRelativeTo(null);
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setVisible(true);
-}
-	
-
-	
+}	
 	public void setImage(int i) {
 		ImageIcon icon = new ImageIcon(SlideShow1.class.getResource(list[i]));  // Calls the list of photos.
 		Image img = icon.getImage();
@@ -73,7 +69,6 @@ public class SlideShow1 extends JFrame {
 		ImageIcon newImc = new ImageIcon(newImg);
 		photo.setIcon(newImc);
 	}
-	
 
 	
 	public static void main(String[] args) {
