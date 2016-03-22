@@ -26,7 +26,15 @@ public class SlideShow2 extends JFrame {
 			"/img/utanbubblaspegel.jpg",
 			"/img/Gubbe2.2.jpg",
 			"/img/utanbubblaspegel.jpg",
-			"/img/Gubbe2.3.jpg"
+			"/img/Gubbe2.3.jpg",
+			
+			"/img/utanbubblaspegel.jpg",
+			"/img/vox2.1.jpg",
+			"/img/utanbubblaspegel.jpg",
+			"/img/vox2.2.jpg",
+			"/img/utanbubblaspegel.jpg", 
+			"/img/vox2.3.jpg"
+			
 	
 	};
 	

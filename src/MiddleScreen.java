@@ -21,11 +21,15 @@ public class MiddleScreen extends JFrame {
 	// List of Photo. 
 	String [] list = {
 			
-			"/img/Medea1.jpg",
 			"/img/Medea2.jpg",
 			"/img/Medea3.jpg",
 			"/img/Medea4.jpg",
-			"/img/Medea5.jpg"
+			"/img/Medea5.jpg",
+			"/img/voxinfo1.jpg",
+			"/img/voxinfo2.jpg",
+			"/img/voxinfo3.jpg",
+			"/img/voxinfo4.jpg"
+			
 	
 	};
 	
@@ -34,7 +38,7 @@ public class MiddleScreen extends JFrame {
 		photo.setBounds(0, 0, 405, 720);
 		
 		// 5000 is the delay
-		tm = new Timer(3000, new ActionListener() {
+		tm = new Timer(4500, new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				
 				setImage(x);
