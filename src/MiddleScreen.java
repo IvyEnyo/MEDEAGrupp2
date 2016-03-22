@@ -21,17 +21,17 @@ public class MiddleScreen extends JFrame {
 	// List of Photo. 
 	String [] list = {
 			
-			"/img/medea1.jpg",
-			"/img/medea2.jpg",
-			"/img/medea3.jpg",
-			"/img/medea4.jpg",
-			"/img/medea5.jpg"
+			"/img/Medea1.jpg",
+			"/img/Medea2.jpg",
+			"/img/Medea3.jpg",
+			"/img/Medea4.jpg",
+			"/img/Medea5.jpg"
 	
 	};
 	
 	public MiddleScreen() {
 		photo = new JLabel();
-		photo.setBounds(0, 0, 1080, 1920);
+		photo.setBounds(0, 0, 405, 720);
 		
 		// 5000 is the delay
 		tm = new Timer(3000, new ActionListener() {
