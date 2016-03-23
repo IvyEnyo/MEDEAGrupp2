@@ -1,4 +1,4 @@
-# MEDEAskärmar Grupp2
+# Medeaskärmar Grupp2
 
 
 ![hej](http://i.imgur.com/K9LwbCM.jpg)
