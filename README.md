@@ -1,11 +1,7 @@
 # MEDEAGrupp2
 
 
+![hej](http://i.imgur.com/K9LwbCM.jpg)
 
 
-
-MADDE
-Herman
-Hampus
-Helena
-Marcus
+Madeleine Nilsson, Herman Wikner, Hampus Blomqvist, Helena Olsson, Marcus Olofsson
