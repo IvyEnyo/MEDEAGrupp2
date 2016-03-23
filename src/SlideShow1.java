@@ -34,7 +34,8 @@ public class SlideShow1 extends JFrame {
 			"/img/utanbubbla.jpg", 
 			"/img/vox1.3.jpg",
 			"/img/utanbubbla.jpg",
-		
+			"/img/vox1.4.jpg",
+			"/img/utanbubbla.jpg"
 	};
 	
 	public SlideShow1() {
@@ -64,7 +65,7 @@ public class SlideShow1 extends JFrame {
 		setLayout(null);
 		setSize(1080, 1920);
 		getContentPane();
-		//setUndecorated(true);
+		setUndecorated(true);
 		setLocationRelativeTo(null);
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setVisible(true);
