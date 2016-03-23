@@ -42,7 +42,7 @@ public class SlideShow2 extends JFrame {
 	
 	public SlideShow2() {
 		photo = new JLabel();
-		photo.setBounds(0, 0, 1080, 1920);
+		photo.setBounds(0, 0, 405, 720);
 		
 		// 5000 is the delay
 		tm = new Timer(3000, new ActionListener() {
@@ -65,9 +65,9 @@ public class SlideShow2 extends JFrame {
 		tm.setInitialDelay(60000 - ((sec * 1000) + ms)); // Sets a delay to start the slide show.
 		tm.start();
 		setLayout(null);
-		setSize(1080, 1920);
+		setSize(405, 720);
 		getContentPane();
-		setUndecorated(true);
+		//setUndecorated(true);
 		setLocationRelativeTo(null);
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setVisible(true);
